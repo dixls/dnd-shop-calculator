@@ -78,13 +78,14 @@ class Investor {
 }
 
 
-const elkian = new Investor('elkian', 2000);
+const company = new Investor('company', 1000);
+const lamine = new Investor('lamine', 1000);
 const flynt = new Investor('flynt', 2000);
 const gus = new Investor('gus', 3500);
 const gart = new Investor('gart', 2000);
 const vada = new Investor('vada', 1000);
 
-const investors = [elkian,flynt,gus,gart,vada]
+const investors = [company,lamine,flynt,gus,gart,vada]
 
 const runAllCalcs = () => {
     for (let investor of investors) {
